@@ -10,6 +10,16 @@ data/
 # OS
 .DS_Store
 
-# Outputs
-figures/*.png
-figures/*.pdf
+# Figures: keep final outputs
+figures/
+!figures/**/*.png
+!figures/**/*.pdf
+!figures/**/*.jpg
+!figures/**/*.jpeg
+!figures/**/*.svg
+
+# But ignore heavy/temporary stuff
+figures/**/*.tmp
+figures/**/*.log
+figures/**/*.aux
+
