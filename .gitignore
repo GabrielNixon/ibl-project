@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+.env
+.venv/
+
+# Data (adjust if you want to version some)
+data/
+
+# OS
+.DS_Store
+
+# Outputs
+figures/*.png
+figures/*.pdf
